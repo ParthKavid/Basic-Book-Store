@@ -1,0 +1,91 @@
+.bg 
+    {
+    /* background-image: url("/images/books_bulb.jpg");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+.box{
+    text-align: left;
+    margin: 10% 10% 10% 10%;
+}
+
+.storeName{
+    color:white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btncontinue{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgBookItem
+{
+    width: 300px;
+    height: 300px;
+}
+
+.itemDiv{
+    text-align: center;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+    background-color:#7fffd48c;
+    
+}
+
+.checkout_box{
+    background-color: rgb(47, 81, 111);
+    margin: 10%;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+}
+.qtyCls{
+    font-size: 20px;
+}
+
+
+.buyCls{
+    font-size: 20px;
+    margin: 20px;
+    background-color: dimgray;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#form_checkout > p {
+     margin:20px;
+     font-size: 20px;
+}
+
+#form_checkout input{
+    font-size: 20px;
+}
+
+
+#form_checkout select{
+    font-size: 20px;
+}
+
+.btnsubmit{
+    font-size: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
